@@ -1,0 +1,592 @@
+/*
+font-family: 'Poppins', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a,input,img {
+    display: block;
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.first_screen {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 54px;
+    margin: 47px auto;
+}
+.first_screen .blue {
+    display: block;
+    width: 93px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0099FF;
+}
+.first_screen .black {
+    color:#000000;
+}
+.first_screen ul {
+    display: flex;
+    justify-content: space-between;
+    width: 268px;
+    height: 27px;
+}
+.first_screen li {
+    list-style-type: none;
+}
+.first_screen ul a {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.first_screen .btn_blue {
+    width: 200px;
+    height: 54px;
+    border: 2px solid #0099FF;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.first_screen .btn_blue span {
+    display: block;
+    width: 52px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #0099FF;
+    text-decoration: none;
+    padding: 12px 74px;
+}
+.first_screen .content {
+    display: flex;
+}
+.first_screen .text {
+    width: 570px;
+    height: 319px;
+}
+.first_screen .text h2 {
+    width: 569px;
+    height: 122px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    text-align: left;
+    margin-top: 220px;
+}
+.first_screen .text p {
+    width: 500px;
+    height: 93px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #999999;
+    margin: 25px 0;
+}
+.first_screen .check {
+    width: 200px;
+    height: 54px;
+    background: #0099FF;
+    border-radius: 5px;
+}
+.first_screen .check span {
+    display: block;
+    width: 109px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 12px;
+    margin-left: 46px;
+}
+.first_screen .logo_doctor {
+    width: 625px;
+    height: 678px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+.second_screen {
+    height: 784px;
+    margin: auto;
+    color:#D7F1F6;
+    background: rgba(215, 241, 246, 0.34);
+}
+.second_screen .service {
+    display: block;
+    width: 316px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #333333;
+    padding-top: 107px;
+    margin: auto;
+}
+.second_screen h2 {
+    width: 632px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #333333;
+    text-align: center;
+    padding-top: 70px;
+    margin: auto;
+}
+.second_screen .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.second_screen .date,.poly,.doctor {
+    width: 308px;
+    height: 229px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 146px;
+}
+.second_screen .date img {
+    position: absolute;
+    top: 1157px;
+    left: 270px;
+}
+.second_screen .poly img {
+    position: absolute;
+    top: 1157px;
+    left: 708px;
+}
+.second_screen .doctor img {
+    position: absolute;
+    top: 1157px;
+    left: 1133px;
+}
+.second_screen .date_1 {
+    display: block;
+    width: 238px;
+    height: 31px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #333333;
+    margin-top: 77px; 
+    padding-left: 70px;    
+}
+.second_screen .date_2 {
+    display: block;
+    width: 190px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    line-height: 156%;
+    text-transform: capitalize;
+    color: #999999;
+    margin: auto;
+    padding-top: 15px;
+}
+.third_screen {
+    height: 784px;
+    margin: auto;
+}
+.third_screen .content {
+    display: flex;
+    justify-content: space-between;
+}
+.third_screen .logo_about {
+    width: 602px;
+    height: 601px;
+    margin-top: 73px;
+    background-image: url(/img/Rectangle\ 13.png);
+}
+.third_screen .text_about_us {
+    margin-left: 26px;
+}
+.third_screen .about {
+    display: block;
+    width: 100px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #333333;
+    margin-top: 168px;
+}
+.third_screen h2 {
+    width: 451px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin-left: 0;  
+}
+.third_screen p {
+    width: 577px;
+    height: 198px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 183.5%;
+    letter-spacing: 0.03em;
+    color: #999999;
+    margin: 20px auto;
+}
+.third_screen .btn_about_us {
+    width: 216px;
+    height: 54px;
+    background: #0099FF;
+    border-radius: 5px;
+}
+.third_screen .btn_about_us .more {
+    display: block;
+    width: 145px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 13px;
+    margin-left: 36px;
+}
+.fourth_screen {
+    height: 883px;
+    background-color: rgba(215, 241, 246, 0.34);
+    margin: auto;
+}
+.fourth_screen .our {
+    display: block;
+    width: 316px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #333333;
+    margin: auto;
+    padding-top: 100px;
+}
+.fourth_screen h2 {
+    width: 632px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin: 80px auto;
+}
+.fourth_screen .doctors {
+    display: flex;
+    justify-content: space-between;  
+}
+.fourth_screen .info,.fourth_screen .info1,.fourth_screen .info2,.fourth_screen .info3 {
+    width: 229px;
+    height: 122px;
+    margin-top: 82px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 2952px;
+    left: 196px;
+}
+.fourth_screen .info1 {
+    left: 499px;
+}
+.fourth_screen .info2 {
+    left: 799px;
+}
+.fourth_screen .info3 {
+    left: 1097px;
+}
+.fourth_screen p {
+    width: 230px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    padding-left: 14px;
+    margin: 8px 17px 8px 0px;
+}
+.fourth_screen .position {
+    display: block;
+    width: 110px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #333333;
+    padding-left: 17px;
+}
+.fourth_screen .icons {
+    display: flex;
+    padding-left: 15px;
+}
+.fourth_screen .icons img {
+    margin: 12px 8px 0 0;  
+}
+.fifth_screen {
+    height: 1019px;
+    margin: auto;
+}
+.fifth_screen span {
+    display: block;
+    width: 295px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #333333;
+    padding-top: 100px;
+}
+.fifth_screen h3 {
+    width: 632px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;   
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin-top: 70px; 
+}
+.fifth_screen .feedback {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.fifth_screen figure {
+    width: 566px;
+    height: 530px;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+    margin: auto;
+}
+.fifth_screen .first,.fifth_screen .second  {
+    width: 567px;
+    height: 184px;
+    background: #F1FAFC;
+    border-radius: 5px;
+    margin-top: -6px;
+}
+.fifth_screen h6 {
+    width: 120px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+    padding-left: 18px;
+    padding-top: 19px;
+}
+.fifth_screen p {
+    width: 423px;
+    height: 69px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin-left: 18px;
+    margin-top: 25px;
+}
+.fifth_screen .stars {
+    display: flex;
+    padding-left: 224px;
+    width: 119px;
+    height: 24px;
+    margin-top: 15px;
+}
+.sixth_screen {
+    height: 348px;
+    background-color: #333333;
+    margin: auto;
+}
+
+.sixth_screen h3{
+    width: 740px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-top: 74px;
+    margin: 0;
+}
+.sixth_screen .contact_us_item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.sixth_screen .contact_us_item p {
+    width: 353px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 72px 0;
+}
+.sixth_screen .contact_us_item .btn_contact {
+    width: 236.25px;
+    height: 54px;
+    background: #0099FF;
+    border-radius: 5px;
+    margin-top: 46px;
+}
+.sixth_screen .contact_us_item .btn_contact span {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    padding: 13px 63px;
+}
+footer {
+    height: 425px;
+    background-color: #F1FAFC;
+    margin: auto;
+}
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+footer .blue {
+    display: block;
+    width: 93px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 98px;
+    color: #0099FF;
+}
+footer .hospital .black {
+   color:#000000;
+}
+footer .hospital p {
+    width: 540px;
+    height: 98px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 191%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    margin-top: 50px;
+}
+footer .icons {
+    width: 272px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+footer .menu ul {
+    padding-top: 100px;
+}
+footer li {
+    list-style-type: none;
+    text-align: left;
+}
+footer .menu a {
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000000;
+}
+footer .menu .bold {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+    padding-bottom: 16px;
+} 
+footer .menu .normal {
+    padding-bottom: 38px;
+}
+footer .get {
+    padding-top: 90px;
+}
+footer .get span {
+    width: 400px;
+    height: 37px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+footer .get .btn_black {
+    width: 366px;
+    height: 74px;
+    background: #494949;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+footer .get .btn_black a {
+    display: block;
+    width: 180px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.61);
+    text-decoration: none;
+    line-height: 50px;
+    margin-left: 28px;
+    padding-top: 12px;
+}
+footer .get .btn_blue {
+    width: 216px;
+    height: 63px;
+    background: #0099FF;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+footer .get .btn_blue a {
+    display: block;
+    width: 98px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 17px;
+    margin-left: 59px;  
+}
